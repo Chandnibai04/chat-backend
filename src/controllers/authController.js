@@ -1,4 +1,4 @@
-import User from "../models/user.model.js";
+import User from "../models/User.model.js";
 import { hashPassword, comparePassword, generateToken } from "../utils/auth.js";
 
 export const signup = async (req, res) => {
