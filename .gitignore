@@ -1,0 +1,17 @@
+# Environment variables
+.env
+
+# Node
+node_modules/
+
+# HTTPS certificates (localhost only)
+cert/localhost-key.pem
+cert/localhost.pem
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
